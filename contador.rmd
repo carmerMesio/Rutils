@@ -1,0 +1,83 @@
+---
+title: "Untitled"
+author: "Josep A."
+date: "27 de abril de 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("tsfa")
+library("nFactors")
+#library("sem")
+library("MTS")
+```
+```{r}
+superm<-read_delim("C:/Users/David/Desktop/Quarter Hourly Electrical Energy_01-01-2017_31-12-2017.csv", 
+                                                                     ";", escape_double = FALSE, trim_ws = TRUE)
+serie=ts(superm$`General [kWh]`,freq=96)
+
+plot(serie)
+abline(v=1:262,lty=3,col=4)
+```
+
+##Miramos el numero maximo de factores que puede tener la serie
+```{r}
+(datos=matrix(superm$`General [kWh]`,nrow=364,ncol=96, byrow = T))
+maxnf=LedermannBound(datos)
+#set.seed(1234)
+#idx=sample(1:9,365,replace=T)
+#fac=rnorm(365*96,1,0.01)
+#dades=ts(datos[idx,]*fac,freq=7)
+
+#dim(dades)
+```
+```{r}
+##Miraremos la correlación al tratarse de analisis factorial.
+#eig=eigen(var(diff(datos,lag=1)))
+zz <- eigen(cor(diff(datos, lag=1)), symmetric=TRUE)[["values"]] 
+print(zz)
+par(omi=c(0.1,0.1,0.1,0.1),mar=c(4.1,4.1,0.6,0.1)) 
+plot(zz, ylab="Value", xlab="Eigenvalue Number", pch=20:20,cex=1,type="o")
+
+## cogeremos los eigenvalues mayores a 1.
+#Contamos los autovalores mayores de 1 con count (metodo antiguo)
+count=0
+for (i in 1:length(zz)){
+  if (zz[i]>1){
+      count=count+1
+  }
+}
+#Calculamos el numero optimo de autovalores por el Barlett ?QUEHACE?
+#Numero optimo de factores es 5 segun Bartlett. Tiene sentido con el plot de eigenvalues.
+optnf=nBartlett(cor(datos),N = ncol(datos), alpha=0.05, cor=TRUE, details=TRUE, correction=TRUE)
+numfatfit <- FAfitStats(datos, diff.=T, maxit=3000)
+print(numfatfit)
+```
+
+```{r}
+nf=optnf$nFactors[1]
+##normalize TRUE o FALSE.
+factores<-estTSF.ML(datos,nf,normalize=F,maxit=30000)
+summary(factores)
+for (i in 1:nf){
+  barplot(factores$loadings[,i])
+}
+
+print(summary(1 - factores$stats$uniquenesses))
+
+  fmodel<-factors(factores) #modelo dado por los factores TSFA
+  plot(fmodel)
+  FAfitStats(factores)
+  
+```
+```{r}
+exp=explained(factores, fmodel, names=factores$names) 
+```
+
+
+
+
+
+
+

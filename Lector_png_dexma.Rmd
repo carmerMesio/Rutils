@@ -1,0 +1,33 @@
+---
+title: "proves images"
+author: "David Cardoner & Arnau Mercader"
+date: "8 de marzo de 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+## Poner el work directory donde esten imagenes y poner titulo de la foto o archivo y nombre.extension.
+##en azul pone pie de foto.
+
+![canijasso](top_gr_6567-1.jpg)
+
+```{r}
+#install.packages('png')
+library(png)
+library(grid)
+library(gridExtra)
+files <- list.files(path ="C:/Users/David/Desktop" ,pattern = "*.png")
+lector <- function(x){
+for (i in 1:length(x)){
+img <- readPNG(source = x[i])
+plot(0,type = "n",main = NULL,xlim = 0:1,ylim = 0:1,xaxt='n', ann=FALSE, yaxt='n')
+grid.raster(img,width = 1,height = 1)
+}
+}
+lector(files)
+```
+

@@ -1,0 +1,217 @@
+install.packages("tseries") 
+library(tseries)
+
+install.packages("car")
+library(car)
+
+install.packages("urca")
+library(urca)
+
+install.packages("forecast")  
+library(forecast)
+
+install.packages("fGarch")
+library(fGarch)
+
+install.packages("ggplot2")
+library(ggplot2)
+
+install.packages("psych")
+library(psych)
+
+install.packages("nFactors")
+library(nFactors)
+
+install.packages("FactoMineR")
+library(FactoMineR)
+
+install.packages("sem")
+library(sem)
+
+install.packages("ctv")
+library(ctv)
+
+install.packages("GPArotation")
+library(GPArotation)
+
+install.packages("MVN")
+library(MVN)
+
+
+install.packages("REdaS")
+library(REdaS)
+
+install.packages("fBasics")
+library(fBasics)
+
+install.packages("devtools")
+library(devtools)
+
+install.packages("Rcpp")
+library(Rcpp)
+
+install.packages("rlang")
+library(rlang)
+
+install.packages("factoextra")
+library(factoextra)
+
+install.packages("corrplot")
+library(corrplot)
+
+
+setwd("G:/MASTER/activitat 2 econ")
+
+dades<-read.csv(?Rend_JP.csv", header=TRUE, sep=";")
+dades
+
+dades<-dades[2:11]
+summary(dades)
+basicStats(dades)
+
+dades<-as.data.frame(dades)
+
+########
+#PCA/FA#
+########
+
+#TEST MARDIA
+
+result_1<-mvn(dades,mvnTest="mardia")
+result_1
+
+#TEST HZ
+result_2<-mvn(dades,mvnTest="hz")
+result_2
+
+#BARLETT'S TEST OF SPHERICITY
+R <- cor(dades)
+bart_spher(dades)
+
+#correlation matrix
+R <- cor(dades)
+myEig <- eigen(R)
+myEig
+bart_spher(dades)
+
+kmo.num<-sum(R^2)-sum(diag(R^2))
+kmo.denom<-kmo.num+(sum(
+
+
+# Pricipal Components Analysis
+# entering raw data and extracting PCs
+# from the correlation matrix
+
+Factor.correlation <- princomp(mydata, cor=TRUE)
+summary(Factor.correlation)
+plot(Factor.correlation, type="lines")
+
+Factor.covariance <- princomp(mydata, cor=FALSE)
+summary(Factor.covariance)
+plot(Factor.covariance, type="lines")
+mean(Factor.covariance$
+
+loadings(Factor.covariance) # pc loadings
+
+plot(Factor.covariance ,type="lines") # scree plot
+Factor.covariance $scores # the principal components
+biplot(Factor.covariance)
+
+# Maximum Likelihood Factor Analysis
+# entering raw data and extracting 3 factors,
+# with varimax rotation
+
+#AIX? ?S FA
+
+fit <- factanal(dades, 3,rotation="varimax")
+print(fit, digits=2, cutoff=.3, sort=TRUE)
+fit$scores #no d?na
+
+fit<-factorial(dates,4)
+
+# plot factor 1 by factor 2
+
+load <- fit$loadings[,1]
+plot(load,type="n") # set up plot
+text(load,labels=names(dades),cex=.7) # add variable names
+
+
+
+#de lscript 8
+#funci? ("FactoMineR")
+
+res.pca <- PCA(dades, graph = FALSE)
+print(res.pca)
+
+#funci? ("ggplot2") ("factoextra")
+eig.val <- get_eigenvalue(res.pca)
+eig.val
+
+
+
+fviz_eig(res.pca, addlabels = TRUE, ylim = c(0, 50))
+var <- get_pca_var(res.pca)
+var
+# Coordinates
+head(var$coord)
+# Cos2: quality on the factore map
+head(var$cos2)
+# Contributions to the principal components
+head(var$contrib)
+# Coordinates of variables
+head(var$coord, 4)
+
+fviz_pca_var(res.pca, col.var = "black")
+head(var$cos2, 4)
+
+
+#funci? ("corrplot")
+corrplot(var$cos2, is.corr=FALSE)
+
+fviz_cos2(res.pca, choice = "var", axes = 1:2)
+fviz_pca_var(res.pca, col.var = "cos2",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), 
+             repel = TRUE # Avoid text overlapping
+)
+
+fviz_pca_var(res.pca, alpha.var = "cos2")
+head(var$contrib, 4)
+corrplot(var$contrib, is.corr=FALSE)   
+fviz_contrib(res.pca, choice = "var", axes = 1, top = 10)
+fviz_contrib(res.pca, choice = "var", axes = 2, top = 10)
+fviz_pca_var(res.pca, col.var = "contrib",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07")
+)
+
+fviz_pca_var(res.pca, alpha.var = "contrib")
+res.desc <- dimdesc(res.pca, axes = c(1,2), proba = 0.05)
+# Description of dimension 1
+res.desc$Dim.1
+res.desc$Dim.2
+
+ind <- get_pca_ind(res.pca)
+ind
+head(ind$coord)
+head(ind$cos2)
+head(ind$contrib)
+
+fviz_pca_ind(res.pca)
+fviz_pca_ind(res.pca, col.ind = "cos2", 
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE # Avoid text overlapping (slow if many points)
+)
+
+fviz_pca_ind(res.pca, pointsize = "cos2", 
+             pointshape = 21, fill = "#E7B800",
+             repel = TRUE # Avoid text overlapping (slow if many points)
+)
+
+fviz_pca_ind(res.pca, col.ind = "cos2", pointsize = "cos2",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE # Avoid text overlapping (slow if many points)
+)
+
+fviz_cos2(res.pca, choice = "ind")
+fviz_contrib(res.pca, choice = "ind", axes = 1:2)
+
+

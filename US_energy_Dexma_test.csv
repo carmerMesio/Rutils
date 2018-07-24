@@ -1,0 +1,563 @@
+state;sector;year;price
+Alabama;All;2015;9.33
+Alaska;All;2015;17.59
+Arizona;All;2015;10.34
+Arkansas;All;2015;8.19
+California;All;2015;15.42
+Colorado;All;2015;9.94
+Connecticut;All;2015;17.77
+Delaware;All;2015;11.17
+Florida;All;2015;10.49
+Georgia;All;2015;9.62
+Hawaii;All;2015;26.17
+Idaho;All;2015;8.09
+Illinois;All;2015;9.4
+Indiana;All;2015;8.99
+Iowa;All;2015;8.35
+Kansas;All;2015;10.14
+Kentucky;All;2015;8.14
+Louisiana;All;2015;7.65
+Maine;All;2015;12.78
+Maryland;All;2015;12.07
+Massachusetts;All;2015;16.9
+Michigan;All;2015;10.76
+Minnesota;All;2015;9.53
+Mississippi;All;2015;9.53
+Missouri;All;2015;9.44
+Montana;All;2015;8.9
+Nebraska;All;2015;8.91
+Nevada;All;2015;9.48
+New Hampshire;All;2015;16.02
+New Jersey;All;2015;13.74
+New Mexico;All;2015;9.62
+New York;All;2015;15.28
+North Carolina;All;2015;9.37
+North Dakota;All;2015;8.75
+Ohio;All;2015;9.98
+Oklahoma;All;2015;7.9
+Oregon;All;2015;8.75
+Pennsylvania;All;2015;10.31
+Rhode Island;All;2015;17.01
+South Carolina;All;2015;9.58
+South Dakota;All;2015;9.47
+Tennessee;All;2015;9.3
+Texas;All;2015;8.7
+Utah;All;2015;8.54
+Vermont;All;2015;14.41
+Virginia;All;2015;9.31
+Washington;All;2015;7.4
+West Virginia;All;2015;8.11
+Wisconsin;All;2015;10.73
+Wyoming;All;2015;7.97
+Alabama;Residential;2015;11.7
+Alaska;Residential;2015;19.83
+Arizona;Residential;2015;12.13
+Arkansas;Residential;2015;9.82
+California;Residential;2015;16.99
+Colorado;Residential;2015;12.12
+Connecticut;Residential;2015;20.94
+Delaware;Residential;2015;13.42
+Florida;Residential;2015;11.58
+Georgia;Residential;2015;11.54
+Hawaii;Residential;2015;29.6
+Idaho;Residential;2015;9.93
+Illinois;Residential;2015;12.5
+Indiana;Residential;2015;11.57
+Iowa;Residential;2015;11.63
+Kansas;Residential;2015;12.34
+Kentucky;Residential;2015;10.24
+Louisiana;Residential;2015;9.33
+Maine;Residential;2015;15.61
+Maryland;Residential;2015;13.82
+Massachusetts;Residential;2015;19.83
+Michigan;Residential;2015;14.42
+Minnesota;Residential;2015;12.12
+Mississippi;Residential;2015;11.27
+Missouri;Residential;2015;11.21
+Montana;Residential;2015;10.88
+Nebraska;Residential;2015;10.6
+Nevada;Residential;2015;12.76
+New Hampshire;Residential;2015;18.5
+New Jersey;Residential;2015;15.81
+New Mexico;Residential;2015;12.47
+New York;Residential;2015;18.54
+North Carolina;Residential;2015;11.28
+North Dakota;Residential;2015;9.62
+Ohio;Residential;2015;12.8
+Oklahoma;Residential;2015;10.14
+Oregon;Residential;2015;10.66
+Pennsylvania;Residential;2015;13.64
+Rhode Island;Residential;2015;19.29
+South Carolina;Residential;2015;12.57
+South Dakota;Residential;2015;11.08
+Tennessee;Residential;2015;10.3
+Texas;Residential;2015;11.56
+Utah;Residential;2015;10.88
+Vermont;Residential;2015;17.09
+Virginia;Residential;2015;11.37
+Washington;Residential;2015;9.09
+West Virginia;Residential;2015;10.08
+Wisconsin;Residential;2015;14.11
+Wyoming;Residential;2015;10.97
+Alabama;Commercial;2015;10.83
+Alaska;Commercial;2015;17.44
+Arizona;Commercial;2015;10.39
+Arkansas;Commercial;2015;8.32
+California;Commercial;2015;15.73
+Colorado;Commercial;2015;9.88
+Connecticut;Commercial;2015;15.97
+Delaware;Commercial;2015;10.25
+Florida;Commercial;2015;9.5
+Georgia;Commercial;2015;9.89
+Hawaii;Commercial;2015;26.93
+Idaho;Commercial;2015;7.8
+Illinois;Commercial;2015;9.02
+Indiana;Commercial;2015;9.78
+Iowa;Commercial;2015;8.92
+Kansas;Commercial;2015;10.1
+Kentucky;Commercial;2015;9.44
+Louisiana;Commercial;2015;8.66
+Maine;Commercial;2015;12.47
+Maryland;Commercial;2015;11
+Massachusetts;Commercial;2015;15.79
+Michigan;Commercial;2015;10.55
+Minnesota;Commercial;2015;9.44
+Mississippi;Commercial;2015;10.55
+Missouri;Commercial;2015;9.16
+Montana;Commercial;2015;10.23
+Nebraska;Commercial;2015;8.67
+Nevada;Commercial;2015;9.25
+New Hampshire;Commercial;2015;14.96
+New Jersey;Commercial;2015;12.79
+New Mexico;Commercial;2015;10.3
+New York;Commercial;2015;15.31
+North Carolina;Commercial;2015;8.73
+North Dakota;Commercial;2015;8.83
+Ohio;Commercial;2015;10.07
+Oklahoma;Commercial;2015;7.68
+Oregon;Commercial;2015;8.8
+Pennsylvania;Commercial;2015;9.6
+Rhode Island;Commercial;2015;15.78
+South Carolina;Commercial;2015;10.21
+South Dakota;Commercial;2015;9.16
+Tennessee;Commercial;2015;10.16
+Texas;Commercial;2015;8.15
+Utah;Commercial;2015;8.62
+Vermont;Commercial;2015;14.54
+Virginia;Commercial;2015;8.21
+Washington;Commercial;2015;8.22
+West Virginia;Commercial;2015;8.61
+Wisconsin;Commercial;2015;10.89
+Wyoming;Commercial;2015;9.12
+Alabama;Industrial;2015;6.03
+Alaska;Industrial;2015;14.53
+Arizona;Industrial;2015;6.26
+Arkansas;Industrial;2015;6.23
+California;Industrial;2015;12.17
+Colorado;Industrial;2015;7.4
+Connecticut;Industrial;2015;12.95
+Delaware;Industrial;2015;8.28
+Florida;Industrial;2015;8.22
+Georgia;Industrial;2015;5.87
+Hawaii;Industrial;2015;23.06
+Idaho;Industrial;2015;6.6
+Illinois;Industrial;2015;6.67
+Indiana;Industrial;2015;6.86
+Iowa;Industrial;2015;5.9
+Kansas;Industrial;2015;7.61
+Kentucky;Industrial;2015;5.48
+Louisiana;Industrial;2015;5.41
+Maine;Industrial;2015;9.05
+Maryland;Industrial;2015;8.53
+Massachusetts;Industrial;2015;13.54
+Michigan;Industrial;2015;7.02
+Minnesota;Industrial;2015;7.02
+Mississippi;Industrial;2015;6.56
+Missouri;Industrial;2015;6.44
+Montana;Industrial;2015;5.32
+Nebraska;Industrial;2015;7.59
+Nevada;Industrial;2015;6.75
+New Hampshire;Industrial;2015;12.74
+New Jersey;Industrial;2015;10.64
+New Mexico;Industrial;2015;6.33
+New York;Industrial;2015;6.31
+North Carolina;Industrial;2015;6.51
+North Dakota;Industrial;2015;8.07
+Ohio;Industrial;2015;7.02
+Oklahoma;Industrial;2015;5.35
+Oregon;Industrial;2015;5.97
+Pennsylvania;Industrial;2015;7.2
+Rhode Island;Industrial;2015;13.76
+South Carolina;Industrial;2015;6.05
+South Dakota;Industrial;2015;7.37
+Tennessee;Industrial;2015;6.17
+Texas;Industrial;2015;5.59
+Utah;Industrial;2015;6.17
+Vermont;Industrial;2015;10.27
+Virginia;Industrial;2015;6.95
+Washington;Industrial;2015;4.35
+West Virginia;Industrial;2015;6.09
+Wisconsin;Industrial;2015;7.58
+Wyoming;Industrial;2015;6.76
+Arizona;Transportation;2015;9.4
+Arkansas;Transportation;2015;11.22
+California;Transportation;2015;8.99
+Colorado;Transportation;2015;10.08
+Connecticut;Transportation;2015;13.18
+Florida;Transportation;2015;8.92
+Georgia;Transportation;2015;5.27
+Illinois;Transportation;2015;6.81
+Indiana;Transportation;2015;9.92
+Iowa;Transportation;2015;0
+Louisiana;Transportation;2015;8.28
+Maryland;Transportation;2015;8.34
+Massachusetts;Transportation;2015;7.76
+Michigan;Transportation;2015;11.44
+Minnesota;Transportation;2015;9.5
+Missouri;Transportation;2015;8.36
+Nevada;Transportation;2015;9.11
+New Jersey;Transportation;2015;10.25
+New York;Transportation;2015;12.95
+North Carolina;Transportation;2015;7.9
+Ohio;Transportation;2015;7.69
+Oregon;Transportation;2015;9.14
+Pennsylvania;Transportation;2015;7.82
+Rhode Island;Transportation;2015;18.54
+Tennessee;Transportation;2015;0
+Texas;Transportation;2015;5.34
+Utah;Transportation;2015;10.05
+Virginia;Transportation;2015;8.11
+Washington;Transportation;2015;8.18
+West Virginia;Transportation;2015;0
+Wisconsin;Transportation;2015;14.66
+Alabama;Other;2015;0
+Alaska;Other;2015;0
+Arizona;Other;2015;0
+Arkansas;Other;2015;0
+California;Other;2015;0
+Colorado;Other;2015;0
+Connecticut;Other;2015;0
+Delaware;Other;2015;0
+Florida;Other;2015;0
+Georgia;Other;2015;0
+Hawaii;Other;2015;0
+Idaho;Other;2015;0
+Illinois;Other;2015;0
+Indiana;Other;2015;0
+Iowa;Other;2015;0
+Kansas;Other;2015;0
+Kentucky;Other;2015;0
+Louisiana;Other;2015;0
+Maine;Other;2015;0
+Maryland;Other;2015;0
+Massachusetts;Other;2015;0
+Michigan;Other;2015;0
+Minnesota;Other;2015;0
+Mississippi;Other;2015;0
+Missouri;Other;2015;0
+Montana;Other;2015;0
+Nebraska;Other;2015;0
+Nevada;Other;2015;0
+New Hampshire;Other;2015;0
+New Jersey;Other;2015;0
+New Mexico;Other;2015;0
+New York;Other;2015;0
+North Carolina;Other;2015;0
+North Dakota;Other;2015;0
+Ohio;Other;2015;0
+Oklahoma;Other;2015;0
+Oregon;Other;2015;0
+Pennsylvania;Other;2015;0
+Rhode Island;Other;2015;0
+South Carolina;Other;2015;0
+South Dakota;Other;2015;0
+Tennessee;Other;2015;0
+Texas;Other;2015;0
+Utah;Other;2015;0
+Vermont;Other;2015;0
+Virginia;Other;2015;0
+Washington;Other;2015;0
+West Virginia;Other;2015;0
+Wisconsin;Other;2015;0
+Wyoming;Other;2015;0
+Alabama;All;2016;9.56
+Alaska;All;2016;17.93
+Arizona;All;2016;10.33
+Arkansas;All;2016;8.13
+California;All;2016;15.23
+Colorado;All;2016;9.83
+Connecticut;All;2016;17.24
+Delaware;All;2016;11.09
+Florida;All;2016;9.91
+Georgia;All;2016;9.59
+Hawaii;All;2016;23.87
+Idaho;All;2016;8.08
+Illinois;All;2016;9.38
+Indiana;All;2016;9.22
+Iowa;All;2016;8.55
+Kansas;All;2016;10.49
+Kentucky;All;2016;8.42
+Louisiana;All;2016;7.46
+Maine;All;2016;12.8
+Maryland;All;2016;12.21
+Massachusetts;All;2016;16.48
+Michigan;All;2016;11.05
+Minnesota;All;2016;9.99
+Mississippi;All;2016;8.67
+Missouri;All;2016;9.74
+Montana;All;2016;8.84
+Nebraska;All;2016;9.05
+Nevada;All;2016;8.38
+New Hampshire;All;2016;15.66
+New Jersey;All;2016;13.38
+New Mexico;All;2016;9.12
+New York;All;2016;14.47
+North Carolina;All;2016;9.2
+North Dakota;All;2016;8.94
+Ohio;All;2016;9.84
+Oklahoma;All;2016;7.83
+Oregon;All;2016;8.83
+Pennsylvania;All;2016;10.19
+Rhode Island;All;2016;16.28
+South Carolina;All;2016;9.79
+South Dakota;All;2016;9.83
+Tennessee;All;2016;9.23
+Texas;All;2016;8.43
+Utah;All;2016;8.72
+Vermont;All;2016;14.46
+Virginia;All;2016;9.09
+Washington;All;2016;7.68
+West Virginia;All;2016;8.98
+Wisconsin;All;2016;10.67
+Wyoming;All;2016;8.19
+Alabama;Residential;2016;11.99
+Alaska;Residential;2016;20.3
+Arizona;Residential;2016;12.15
+Arkansas;Residential;2016;9.92
+California;Residential;2016;17.39
+Colorado;Residential;2016;12.07
+Connecticut;Residential;2016;20.01
+Delaware;Residential;2016;13.42
+Florida;Residential;2016;10.98
+Georgia;Residential;2016;11.5
+Hawaii;Residential;2016;27.47
+Idaho;Residential;2016;9.95
+Illinois;Residential;2016;12.54
+Indiana;Residential;2016;11.79
+Iowa;Residential;2016;11.94
+Kansas;Residential;2016;13.06
+Kentucky;Residential;2016;10.49
+Louisiana;Residential;2016;9.34
+Maine;Residential;2016;15.83
+Maryland;Residential;2016;14.23
+Massachusetts;Residential;2016;19
+Michigan;Residential;2016;15.22
+Minnesota;Residential;2016;12.67
+Mississippi;Residential;2016;10.47
+Missouri;Residential;2016;11.21
+Montana;Residential;2016;10.94
+Nebraska;Residential;2016;10.84
+Nevada;Residential;2016;11.41
+New Hampshire;Residential;2016;18.38
+New Jersey;Residential;2016;15.72
+New Mexico;Residential;2016;12.03
+New York;Residential;2016;17.58
+North Carolina;Residential;2016;11.03
+North Dakota;Residential;2016;10.16
+Ohio;Residential;2016;12.47
+Oklahoma;Residential;2016;10.2
+Oregon;Residential;2016;10.66
+Pennsylvania;Residential;2016;13.86
+Rhode Island;Residential;2016;18.62
+South Carolina;Residential;2016;12.65
+South Dakota;Residential;2016;11.47
+Tennessee;Residential;2016;10.41
+Texas;Residential;2016;10.99
+Utah;Residential;2016;11.02
+Vermont;Residential;2016;17.37
+Virginia;Residential;2016;11.36
+Washington;Residential;2016;9.48
+West Virginia;Residential;2016;11.44
+Wisconsin;Residential;2016;14.07
+Wyoming;Residential;2016;11.13
+Alabama;Commercial;2016;11.11
+Alaska;Commercial;2016;17.56
+Arizona;Commercial;2016;10.41
+Arkansas;Commercial;2016;8.23
+California;Commercial;2016;15.07
+Colorado;Commercial;2016;9.6
+Connecticut;Commercial;2016;15.75
+Delaware;Commercial;2016;10.07
+Florida;Commercial;2016;8.9
+Georgia;Commercial;2016;9.81
+Hawaii;Commercial;2016;24.64
+Idaho;Commercial;2016;7.76
+Illinois;Commercial;2016;9.02
+Indiana;Commercial;2016;10.01
+Iowa;Commercial;2016;9.17
+Kansas;Commercial;2016;10.47
+Kentucky;Commercial;2016;9.57
+Louisiana;Commercial;2016;8.59
+Maine;Commercial;2016;12.08
+Maryland;Commercial;2016;10.99
+Massachusetts;Commercial;2016;15.6
+Michigan;Commercial;2016;10.64
+Minnesota;Commercial;2016;9.86
+Mississippi;Commercial;2016;9.57
+Missouri;Commercial;2016;9.26
+Montana;Commercial;2016;10.19
+Nebraska;Commercial;2016;8.8
+Nevada;Commercial;2016;7.93
+New Hampshire;Commercial;2016;14.43
+New Jersey;Commercial;2016;12.26
+New Mexico;Commercial;2016;9.75
+New York;Commercial;2016;14.45
+North Carolina;Commercial;2016;8.62
+North Dakota;Commercial;2016;9.15
+Ohio;Commercial;2016;9.97
+Oklahoma;Commercial;2016;7.66
+Oregon;Commercial;2016;8.91
+Pennsylvania;Commercial;2016;9.22
+Rhode Island;Commercial;2016;14.88
+South Carolina;Commercial;2016;10.28
+South Dakota;Commercial;2016;9.58
+Tennessee;Commercial;2016;10.19
+Texas;Commercial;2016;8.26
+Utah;Commercial;2016;8.75
+Vermont;Commercial;2016;14.54
+Virginia;Commercial;2016;7.93
+Washington;Commercial;2016;8.43
+West Virginia;Commercial;2016;9.35
+Wisconsin;Commercial;2016;10.77
+Wyoming;Commercial;2016;9.4
+Alabama;Industrial;2016;6.04
+Alaska;Industrial;2016;15.22
+Arizona;Industrial;2016;6.07
+Arkansas;Industrial;2016;6.08
+California;Industrial;2016;11.92
+Colorado;Industrial;2016;7.35
+Connecticut;Industrial;2016;12.81
+Delaware;Industrial;2016;8.11
+Florida;Industrial;2016;7.69
+Georgia;Industrial;2016;5.84
+Hawaii;Industrial;2016;20.69
+Idaho;Industrial;2016;6.55
+Illinois;Industrial;2016;6.51
+Indiana;Industrial;2016;6.97
+Iowa;Industrial;2016;6.05
+Kansas;Industrial;2016;7.49
+Kentucky;Industrial;2016;5.67
+Louisiana;Industrial;2016;5.08
+Maine;Industrial;2016;8.96
+Maryland;Industrial;2016;7.89
+Massachusetts;Industrial;2016;13.38
+Michigan;Industrial;2016;6.91
+Minnesota;Industrial;2016;7.37
+Mississippi;Industrial;2016;5.79
+Missouri;Industrial;2016;7.12
+Montana;Industrial;2016;5.06
+Nebraska;Industrial;2016;7.69
+Nevada;Industrial;2016;5.88
+New Hampshire;Industrial;2016;12.34
+New Jersey;Industrial;2016;10.16
+New Mexico;Industrial;2016;5.84
+New York;Industrial;2016;6.03
+North Carolina;Industrial;2016;6.31
+North Dakota;Industrial;2016;7.98
+Ohio;Industrial;2016;6.98
+Oklahoma;Industrial;2016;5.02
+Oregon;Industrial;2016;6.05
+Pennsylvania;Industrial;2016;6.92
+Rhode Island;Industrial;2016;13.48
+South Carolina;Industrial;2016;6.09
+South Dakota;Industrial;2016;7.57
+Tennessee;Industrial;2016;5.68
+Texas;Industrial;2016;5.33
+Utah;Industrial;2016;6.33
+Vermont;Industrial;2016;10.23
+Virginia;Industrial;2016;6.56
+Washington;Industrial;2016;4.43
+West Virginia;Industrial;2016;6.57
+Wisconsin;Industrial;2016;7.49
+Wyoming;Industrial;2016;6.92
+Arizona;Transportation;2016;9.93
+Arkansas;Transportation;2016;10.41
+California;Transportation;2016;9.8
+Colorado;Transportation;2016;9.8
+Connecticut;Transportation;2016;10.84
+Florida;Transportation;2016;8.32
+Georgia;Transportation;2016;5.08
+Illinois;Transportation;2016;6.67
+Indiana;Transportation;2016;9.82
+Iowa;Transportation;2016;0
+Louisiana;Transportation;2016;9.03
+Maryland;Transportation;2016;7.85
+Massachusetts;Transportation;2016;5.94
+Michigan;Transportation;2016;11.63
+Minnesota;Transportation;2016;10.06
+Missouri;Transportation;2016;8.31
+Nevada;Transportation;2016;7.83
+New Jersey;Transportation;2016;8.68
+New York;Transportation;2016;12.05
+North Carolina;Transportation;2016;7.88
+Ohio;Transportation;2016;7.93
+Oregon;Transportation;2016;9.26
+Pennsylvania;Transportation;2016;7.64
+Rhode Island;Transportation;2016;18.71
+Tennessee;Transportation;2016;0
+Texas;Transportation;2016;7.92
+Utah;Transportation;2016;9.76
+Virginia;Transportation;2016;7.76
+Washington;Transportation;2016;8.89
+West Virginia;Transportation;2016;0
+Wisconsin;Transportation;2016;14.68
+Alabama;Other;2016;0
+Alaska;Other;2016;0
+Arizona;Other;2016;0
+Arkansas;Other;2016;0
+California;Other;2016;0
+Colorado;Other;2016;0
+Connecticut;Other;2016;0
+Delaware;Other;2016;0
+Florida;Other;2016;0
+Georgia;Other;2016;0
+Hawaii;Other;2016;0
+Idaho;Other;2016;0
+Illinois;Other;2016;0
+Indiana;Other;2016;0
+Iowa;Other;2016;0
+Kansas;Other;2016;0
+Kentucky;Other;2016;0
+Louisiana;Other;2016;0
+Maine;Other;2016;0
+Maryland;Other;2016;0
+Massachusetts;Other;2016;0
+Michigan;Other;2016;0
+Minnesota;Other;2016;0
+Mississippi;Other;2016;0
+Missouri;Other;2016;0
+Montana;Other;2016;0
+Nebraska;Other;2016;0
+Nevada;Other;2016;0
+New Hampshire;Other;2016;0
+New Jersey;Other;2016;0
+New Mexico;Other;2016;0
+New York;Other;2016;0
+North Carolina;Other;2016;0
+North Dakota;Other;2016;0
+Ohio;Other;2016;0
+Oklahoma;Other;2016;0
+Oregon;Other;2016;0
+Pennsylvania;Other;2016;0
+Rhode Island;Other;2016;0
+South Carolina;Other;2016;0
+South Dakota;Other;2016;0
+Tennessee;Other;2016;0
+Texas;Other;2016;0
+Utah;Other;2016;0
+Vermont;Other;2016;0
+Virginia;Other;2016;0
+Washington;Other;2016;0
+West Virginia;Other;2016;0
+Wisconsin;Other;2016;0
+Wyoming;Other;2016;0

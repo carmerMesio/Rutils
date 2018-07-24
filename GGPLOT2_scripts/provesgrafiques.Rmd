@@ -1,0 +1,22 @@
+---
+title: "proves"
+author: "David Cardoner; Pau Cervello"
+date: "4 de julio de 2017"
+output: html_document
+---
+#Análisi Descriptiu
+
+A continuació, es presenta un analisi descriptiu, en funció de si la varaible es numerica o categórica.
+
+```{r,message=FALSE,echo=TRUE}
+data2<-data[,-c(2,7,10,11,14)]
+summary(data2)
+par(mfrow=c(2,2))
+for(i in 1:ncol(data2)){
+  if(class(data2[[i]])=="factor"){
+    plot(data2[[i]],main=names(data2)[i],col=brewer.pal(length(levels(data2[[i]])), "Blues"))
+  }else{
+    hist(data2[[i]], main=names(data2)[i],col=brewer.pal(9,"Blues"))
+  }
+}
+```
